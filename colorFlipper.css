@@ -1,0 +1,36 @@
+
+
+ul{
+    list-style-type: none;
+    padding-inline-start: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+    border-radius: 50px;
+}
+
+#backG{
+    background-color: darkblue;
+    color: whitesmoke;
+    width: 500px;
+    height: 100px;
+    text-align: center;
+}
+
+.newContainer{
+    display: flex;
+    
+}
+
+.newContainer > a{
+margin-right: 2em;
+}
+
+.newContainer > a:hover{
+    color: red;
+}
